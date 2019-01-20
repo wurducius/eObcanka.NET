@@ -66,8 +66,8 @@ namespace eObcanka
 
                         Console.WriteLine("IdentificationCertificate data:");
                         Console.WriteLine("===============================");
-                        Console.WriteLine(cert.givenName);
-                        Console.WriteLine(cert.surname);
+                        Console.WriteLine(cert.ToString2());
+                       /* Console.WriteLine(cert.surname);
                         Console.WriteLine(cert.documentNumber);
                         Console.WriteLine(cert.birthCity);
                         Console.WriteLine(cert.birthDate);
@@ -80,7 +80,7 @@ namespace eObcanka
                         Console.WriteLine(cert.organization);
                         Console.WriteLine(cert.serialNumber);
                         Console.WriteLine(cert.sex);
-                        Console.WriteLine(cert.street);
+                        Console.WriteLine(cert.street);*/
 
                     }
                 }
@@ -207,14 +207,14 @@ namespace eObcanka
 
                 byte[] readFileRequest = new byte[] { 0x00, (byte)0xB0, (byte)h, (byte)l, (byte)size };
 
-                var apdu = new CommandApdu(IsoCase.Case4Short, isoReader.ActiveProtocol)
+                var apdu = new CommandApdu(IsoCase.Case2Extended, isoReader.ActiveProtocol)
                 {
                     CLA = 0x00,
                     Instruction = InstructionCode.ReadBinary,
-                    P1 = 0x08,
-                    P2 = 0x00,
+                    P1 = (byte)h,
+                    P2 = (byte)l,
+                    Le = (byte)size
 
-                    Data = new byte[] { (byte)h, (byte)l }
                 };
 
                 Console.WriteLine("Send APDU with \"READ BINARY INDETIFICATION CERTIFICATE FILE\" command: {0}",

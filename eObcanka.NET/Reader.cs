@@ -16,7 +16,7 @@ namespace eObcanka.NET
             }
 
             // Ask the user which one to choose.
-            Console.Write("Which reader has an inserted card that supports the GET CHALLENGE command? ");
+            Console.Write("Which reader has an inserted card that supports ABDU command? ");
             var line = Console.ReadLine();
 
             if (int.TryParse(line, out var choice) && (choice >= 0) && (choice <= readerNames.Count))

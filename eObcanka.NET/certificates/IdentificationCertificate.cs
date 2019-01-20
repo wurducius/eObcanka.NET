@@ -68,7 +68,13 @@ namespace eObcanka.Certificates
         public string documentNumber {
             get { return documentNumber; }
         }
-        
+
+        public string ToString2()
+        {
+
+            return this.distNames[0].Name.ToString().Replace(',', '\n');
+        }
+
         public override string ToString()
         {
             return "IdentificationCertificate{" +
