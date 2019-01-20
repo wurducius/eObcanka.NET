@@ -8,17 +8,4 @@
     <ProjectReference Include="..\pcsc-sharp\src\PCSC.Iso7816\PCSC.Iso7816.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="PCSC">
-      <HintPath>lib\PCSC.dll</HintPath>
-      <Private>true</Private>
-      <EmbedInteropTypes>true</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="PCSC.Iso7816">
-      <HintPath>lib\PCSC.Iso7816.dll</HintPath>
-      <Private>true</Private>
-      <EmbedInteropTypes>true</EmbedInteropTypes>
-    </Reference>
-  </ItemGroup>
-
 </Project>
