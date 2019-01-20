@@ -6,10 +6,13 @@ namespace SampleApplication
     class Program
     {
         static void Main(string[] args)
-        {          
-                Card card = new Card();
-                Card.ReadData();
-                Console.ReadKey();         
-        }   
+        {
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            Card card = new Card();
+            Console.WriteLine("Reading data..");
+            Card.ReadData();
+            Console.ReadKey();
+        }
     }
 }
