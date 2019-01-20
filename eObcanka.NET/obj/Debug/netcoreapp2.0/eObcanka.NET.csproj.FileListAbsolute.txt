@@ -1,0 +1,17 @@
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\bin\Debug\netcoreapp2.0\eObcanka.NET.deps.json
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\bin\Debug\netcoreapp2.0\eObcanka.NET.dll
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\bin\Debug\netcoreapp2.0\eObcanka.NET.pdb
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\bin\Debug\netcoreapp2.0\PCSC.dll
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\bin\Debug\netcoreapp2.0\PCSC.Iso7816.dll
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\bin\Debug\netcoreapp2.0\PCSC.Iso7816.pdb
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\bin\Debug\netcoreapp2.0\PCSC.Iso7816.xml
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\bin\Debug\netcoreapp2.0\PCSC.pdb
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\bin\Debug\netcoreapp2.0\PCSC.xml
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\bin\Debug\netcoreapp2.0\PCSC.dll.config
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\obj\Debug\netcoreapp2.0\eObcanka.NET.csprojAssemblyReference.cache
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\obj\Debug\netcoreapp2.0\eObcanka.NET.csproj.CoreCompileInputs.cache
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\obj\Debug\netcoreapp2.0\eObcanka.NET.AssemblyInfoInputs.cache
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\obj\Debug\netcoreapp2.0\eObcanka.NET.AssemblyInfo.cs
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\obj\Debug\netcoreapp2.0\eObcanka.NET.csproj.CopyComplete
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\obj\Debug\netcoreapp2.0\eObcanka.NET.dll
+D:\_WORK\eObcanka\eObcanka.NET\eObcanka.NET\eObcanka.NET\obj\Debug\netcoreapp2.0\eObcanka.NET.pdb

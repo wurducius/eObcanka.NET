@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "SampleApplication/1.0.0": {
+        "dependencies": {
+          "eObcanka.NET": "1.0.0"
+        },
+        "runtime": {
+          "SampleApplication.dll": {}
+        }
+      },
+      "eObcanka.NET/1.0.0": {
+        "dependencies": {
+          "PCSC.Iso7816": "4.0.1"
+        },
+        "runtime": {
+          "eObcanka.NET.dll": {}
+        }
+      },
+      "PCSC/4.0.1": {
+        "runtime": {
+          "PCSC.dll": {}
+        }
+      },
+      "PCSC.Iso7816/4.0.1": {
+        "dependencies": {
+          "PCSC": "4.0.1"
+        },
+        "runtime": {
+          "PCSC.Iso7816.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SampleApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eObcanka.NET/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PCSC/4.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PCSC.Iso7816/4.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
