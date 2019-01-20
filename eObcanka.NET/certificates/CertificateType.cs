@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace eObcanka.certificates
+namespace eObcanka.Certificates
 {
     public enum CertificateType
     {

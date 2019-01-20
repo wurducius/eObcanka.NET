@@ -7,8 +7,8 @@ namespace SampleApplication
     {
         static void Main(string[] args)
         {          
-                Reader reader = new Reader();
-                Reader.DoWork();
+                Card card = new Card();
+                Card.ReadData();
                 Console.ReadKey();         
         }   
     }
